@@ -1,0 +1,45 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+a, h1 {
+    color: black;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-section-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 12px 15% 0 15%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-section-container * {
+    color: #E5E7EB
+}
